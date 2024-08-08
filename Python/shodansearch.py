@@ -1,6 +1,6 @@
 from shodan import Shodan
 
-api = Shodan('zaRNxhozUAyvFKRfluo96ZrQ2YEu485i')
+api = Shodan('zaRNxhozUAyvFK')
 
 # Search for websites that have been "hacked"
 for banner in api.search_cursor('http.title:"hacked by"'):
